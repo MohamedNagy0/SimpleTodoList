@@ -1,0 +1,82 @@
+/*^ Start Basic */
+body {
+    font-family: "Poppins";
+    background-color: #222831;
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-12 {
+    font-size: 12px;
+    margin-block: -5px;
+    padding-left: 5px;
+}
+.pointer {
+    cursor: pointer;
+}
+.max-w-500 {
+    max-width: 500px;
+}
+.checkedColor {
+    color: #6d778b;
+}
+.checkedStyle {
+    color: #6d778b;
+    text-decoration: line-through;
+}
+.bg-gray {
+    background-color: #151515;
+}
+.tr-400 {
+    transition: all 400ms;
+}
+
+.ml-34 {
+    margin-left: 34px;
+}
+
+.titleColor {
+    color: #102c57;
+}
+.arrColor {
+    background-color: white;
+}
+.editColor {
+    color: #5a639c;
+}
+.noteColor {
+    color: #1b2430;
+}
+.headColor {
+    background-color: #2e4f4f;
+}
+.btn-success {
+    background-color: #1679ab;
+    border: none;
+}
+.btn.btn-success:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #10587c;
+    border-color: #1679ab;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+    background-color: #1679ab;
+}
+.red {
+    color: red;
+}
+/*& End Basic */
+
+/*^ Start Main */
+
+/*& End Main */
